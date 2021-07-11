@@ -1,5 +1,2 @@
 # BIONDA
-The biomarker database BIONDA performs text mining tasks using a dictioanry approach to identify diseases and poteincial biomarkers (lncRna, proteins, mirna and genes) in Europe PMC abstracts. The RE is sentence-based. The databases are :
-UniProt
-Disease Onthologie
-mirBase
+Because of the steadily increasing and already manually unmanageable total number of bi-omarker-related articles in biomedical research, there is a need for intelligent systems that extract all relevant information from biomedical texts and provide it as structured information to research-ers in a user-friendly way. To address this, BIONDA was implemented as a free text mining-based online database for molecular biomarkers including genes, proteins and miRNAs and for all kinds of diseases. The contained structured information on published biomarkers is extracted automati-cally from Europe PMC publication abstracts and high-quality sources like UniProt and Disease Ontology. This allows frequent content updates.
