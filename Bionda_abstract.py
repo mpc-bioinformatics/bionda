@@ -167,8 +167,8 @@ for i in range(result_value):
 
 
 #Delete Duplicates
-delelte_create= "CREATE TABLE biomarker.temp ..;"
-mycursor.execute(delelte_create,mydb)
+delete_create= "CREATE TABLE biomarker.temp ..;"
+mycursor.execute(delete_create,mydb)
 delete_inset ="INSERT INTO temp  SELECT DISTINCT "
 mycursor.execute(delete_inset,mydb)
 delete_drop ="DROP TABLE "
